@@ -1,1 +1,1 @@
-[click here to view][tech_may_2024.pdf]
+[resume](tech_may_2024.pdf)
