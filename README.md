@@ -1,1 +1,1 @@
-![preview](https://github.com/biponroy47/resume/blob/main/screenshot.png?raw=true)
+![preview](https://github.com/biponroy47/resume/blob/main/preview.png?raw=true)
