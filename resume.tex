@@ -2,7 +2,6 @@
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
-\usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
@@ -10,14 +9,13 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{fontawesome5}
 \usepackage{multicol}
 \setlength{\multicolsep}{-3.0pt}
 \setlength{\columnsep}{-1pt}
 \input{glyphtounicode}
 
 %----------FONT OPTIONS----------
-% \usepackage[sfdefault]{roboto}
+\usepackage[sfdefault]{roboto}
 % \usepackage{mathptmx}
 % \usepackage{tgpagella}
 % \usepackage{tgpagella,eulervm}
@@ -54,7 +52,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-0pt}\raggedright\large\bfseries
+  \vspace{-4pt}\raggedright\Large\bfseries
 }{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
 % Ensure that generated PDF is machine readable/ATS parsable
@@ -107,38 +105,22 @@
 %----------HEADING----------
 
 \begin{center}
-    \textbf{{\Huge Bipon Roy}} 
-    \\\vspace{5pt}
-    {\raisebox{-0.1\height}\faEnvelope\ biponroy47@yahoo.com}
-    \hspace{10pt}
-    {\raisebox{-0.05\height}\faGithub\ github.com/biponroy47}
-    \hspace{10pt}
-    {\raisebox{-0.05\height}\faLinkedin\ linkedin.com/in/biponroy}
-    \hspace{10pt}
-    \small \raisebox{-0.05\height}\faPhone\ 647-570-3728
+  {\textcolor{NavyBlue}{\textbf{\fontsize{28}{32}\selectfont Bipon Roy}}}\\[8pt]
+  biponroy47@yahoo.com \enspace\textbullet\enspace 647-570-3728 \enspace\textbullet\enspace Toronto, Ontario\\[0pt]
+  github.com/biponroy47 \enspace\textbullet\enspace linkedin.com/in/biponroy \enspace\textbullet\enspace biponroy.com
 \end{center}
 
-   %-----------EDUCATION-----------
-\section{EDUCATION}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {\textbf{Western University}}{Sept. 2020 -- Dec. 2026}
-      {\textit{Bachelor of Science, Computer Science}}{}
-    \begin{itemize}[leftmargin=0.5cm, label={}]
-    \vspace{-7pt}
-    {\item{
-     \resumeItem{{\textbf {Noteable Courses: }}\\Data Structures \& Algorithms, Operating Systems, Databases, Artificial Intelligence, Language Theory, Compilers}
-     \\
-    }}
-    \end{itemize}
-  \resumeSubHeadingListEnd
-  
-%-----------EXPERIENCE-----------
-\section{EXPERIENCE}
+   %-----------EXPERIENCE-----------
+\section{Experience}
   \resumeSubHeadingListStart
   \resumeSubheading
   {\textbf{Ontario Power Generation}}{Apr. 2025 -- Current}
-  {Software Engineer Intern (Incoming)}{Pickering, Ontario}
+  {Professional Engineering Year}{Pickering, Ontario}
+  \resumeItemListStart
+    \resumeItem{Initiated and led the invoice automator project — proposed the solution, coordinated requirements with stakeholders, and drove implementation and handover}
+    \resumeItem{Implemented the tool in \textbf{Python} with a \textbf{Tkinter} GUI; queries purchase orders from an \textbf{SQL} database, normalizes records, and generates consolidated invoice reports}
+    \resumeItem{Added scheduled execution, robust error logging, validation checks, and CSV/PDF export — reduced manual invoice preparation by \textbf{8+ hours/week} for project leaders and eliminated frequent data-entry errors; packaged for deployment with configurable DB credentials}
+  \resumeItemListEnd
 
     \resumeSubheading
       {\textbf{Jennifer Kominek Interior Design}}{May 2023 -- Sept. 2023}
@@ -148,18 +130,10 @@
       \resumeItem{Leveraged advanced \textbf{Google SEO} practices alongside \textbf{JavaScript} frameworks including \textbf{PhotoSwipe}, \textbf{Isotope}, and \textbf{Bootstrap} to enhance photo handling and layout specifications}
       \resumeItem{Optimized images with editing tools and implemented lazy loading with compression techniques, reducing data retrieval times by \textbf{50-200ms} while maintaining high resolution and clarity}
     \resumeItemListEnd
-
-    \resumeSubheading
-      {\textbf{Danforth Robotics Team}}{Sept. 2018 -- May 2020}
-      {Software Engineer}{Toronto, Ontario}
-    \resumeItemListStart
-      \resumeItem{Utilized \textbf{C++} and VexCode compiler to unify robotics modules, created custom blueprints and implemented computer vision engine to automate builds, increase precision, and reduce human error during competition}
-      \resumeItem{Developed a custom motor handling proocedure enabling omni-directional movement enhancing the robot's efficiency, improving stack rate by \textbf{25\%}, and achieved competitive performance in the top \textbf{95th} percentile}
-    \resumeItemListEnd
   \resumeSubHeadingListEnd
-
-%-----------SKILLS-----------
-\section{SKILLS}
+  
+   %-----------SKILLS-----------
+\section{Skills}
  \vspace{0pt}
  \begin{itemize}[leftmargin=0.5cm, label={}]
     \small{\item
@@ -169,8 +143,16 @@
     }}
  \end{itemize}
 
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{Western University}}{Sept
+      {\textit{Bachelor of Science, Computer Science}}{}
+  \resumeSubHeadingListEnd
+
 %-----------PROJECTS-----------
-\section{PROJECTS}
+\section{Projects}
   \resumeSubHeadingListStart
   
     \resumeSubheading
