@@ -61,7 +61,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2.5pt}}
+    {#1 \vspace{-1.5pt}}
   }
 }
 
@@ -70,7 +70,7 @@
     \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
       {\large{#1}} & {\small #2} \\
       {#3} & {\small #4} \\
-    \end{tabular*}\vspace{-6pt}
+    \end{tabular*}\vspace{-8pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -114,17 +114,19 @@
 \section{Experience}
   \resumeSubHeadingListStart
   \resumeSubheading
-  {\textbf{Ontario Power Generation}}{Apr. 2025 -- Current}
-  {Professional Engineering Year}{Pickering, Ontario}
+  {\textbf{Ontario Power Generation}}{May. 2025 -- Current}
+  {\textit{Professional Engineering Year Student (Co-op)}}{Pickering, Ontario}
   \resumeItemListStart
-    \resumeItem{Initiated and led the invoice automator project — proposed the solution, coordinated requirements with stakeholders, and drove implementation and handover}
-    \resumeItem{Implemented the tool in \textbf{Python} with a \textbf{Tkinter} GUI; queries purchase orders from an \textbf{SQL} database, normalizes records, and generates consolidated invoice reports}
-    \resumeItem{Added scheduled execution, robust error logging, validation checks, and CSV/PDF export — reduced manual invoice preparation by \textbf{8+ hours/week} for project leaders and eliminated frequent data-entry errors; packaged for deployment with configurable DB credentials}
-  \resumeItemListEnd
+    \resumeItem{Developed a custom \textbf{Python} automation tool with a \textbf{Tkinter}-based GUI to parse and consolidate invoices from multiple sources into a single dynamic summary file, eliminating manual cross-referencing and saved project leaders several hours each week in project cost tracking.}
+    \resumeItem{Engineered a \textbf{Python} automation script to extract and filter project-specific purchase order data directly using \textbf{ODBC API} for \textbf{SQL} Server, streamlining multi-source data aggregation and improving financial reporting accuracy.}
+    \resumeItem{Authored a diagnostic \textbf{Python} utility to identify and flag corrupted files causing Windows network drive execution errors, reducing more than \textbf{10+} hours of manual QA testing and improving system reliability.}
+    \resumeItem{Oversaw the financial approval workflow for more than \textbf{\$20M} in invoices across major project installations, ensuring cost accuracy, vendor compliance, and timely reconciliation between purchase orders, invoices, and forecasts.}
+    \resumeItem{Led the initiation and planning phases for the replacement of a mission-critical Gamma Detection System, including drafting the Project Charter, Business Case, and executive pitch that secured \textbf{\$2.5M} in funding.}
+    \resumeItemListEnd
 
     \resumeSubheading
       {\textbf{Jennifer Kominek Interior Design}}{May 2023 -- Sept. 2023}
-      {Front-End Web Developer Intern}{Toronto, Ontario}
+      {\textit{Front-End Developer Intern}}{Toronto, Ontario}
     \resumeItemListStart
       \resumeItem{Spearheaded the development of the company website from concept to launch using \textbf{React.js}, resulting in a \textbf{90\%} increase in site viewership and a \textbf{2-minute} extension in audience retention}
       \resumeItem{Leveraged advanced \textbf{Google SEO} practices alongside \textbf{JavaScript} frameworks including \textbf{PhotoSwipe}, \textbf{Isotope}, and \textbf{Bootstrap} to enhance photo handling and layout specifications}
@@ -147,8 +149,12 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {\textbf{Western University}}{Sept
+      {\textbf{Western University}}{Sept. 2020 -- Dec. 2026}
       {\textit{Bachelor of Science, Computer Science}}{}
+    \begin{itemize}[leftmargin=0.5cm, label={}]
+    \vspace{-7pt}
+    \item{\resumeItem{{\textbf{Notable Courses: }}Data Structures \& Algorithms, Operating Systems, Databases, Artificial Intelligence, Compilers}}
+    \end{itemize}
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
@@ -170,14 +176,6 @@
     \resumeItemListStart
     \resumeItem{Developed an Android safety app using \textbf{Kotlin} and \textbf{Android Studio} to track and display real-time public emergencies, health hazards, and dangerous activities in local regions}
       \resumeItem{Configured BeautifulSoup, a \textbf{Python} web scraper to extract information from live feeds and used the Android Development Kit to simulate pre-deployment testing for different hardware and operating systems}
-    \resumeItemListEnd
-
-    \resumeSubheading
-      {\textbf{String Encryption Sequencer}}{}{}{}
-      \vspace{-17pt}
-    \resumeItemListStart
-      \resumeItem{A desktop tool built using \textbf{Java} and \textbf{Java Swing/SWT} implementing the substitution and Caesar shift algorithms}
-      \resumeItem{Added random seed generation feature for custom encryption keys, enhancing versatility and cryptographic strength}
     \resumeItemListEnd
 
     \resumeSubheading
